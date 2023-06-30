@@ -4,7 +4,6 @@ parameters = [
   { name = "dev.frontend.user_url", value = "http://user-dev.rdevopsb72.store:8080/" },
   { name = "dev.frontend.shipping_url", value = "http://shipping-dev.rdevopsb72.store:8080/" },
   { name = "dev.frontend.payment_url", value = "http://payment-dev.rdevopsb72.store:8080/" },
-  { name = "dev.catalogue.mongo_endpoint", value = "mongo.mongodb-dev.rdevopsb72.store:8080/" },
   { name = "dev.catalogue.mongo", value = "MONGO=true" },
   { name = "dev.catalogue.mongo_endpoint", value = "mongo.mongodb-dev.rdevopsb72.store" }
   ]
