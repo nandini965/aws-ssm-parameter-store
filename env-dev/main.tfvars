@@ -14,5 +14,15 @@ parameters = [
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" },
   { name = "dev.cart.catalogue_port", value = "8080" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.rdevopsb72.store:8080" },
-  { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" }
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" ,
+  { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" },
+  { name = "dev.shipping.db_user", value = "root" },
+  { name = "dev.shipping.db_pass", value = "roboshop@1" },
+  { name = "dev.payment.cart_host", value = "cart-dev.rdevopsb72.store" },
+  { name = "dev.payment.cart_port", value = "8080" },
+  { name = "dev.payment.user_host", value = "user-dev.rdevopsb72.store" },
+  { name = "dev.payment.user_port", value = "8080" },
+  { name = "dev.cart.amqp_host", value = "rabbitmq-dev.rdevopsb72.store" },
+  { name = "dev.cart.amqp_user", value = "roboshop@123" },
+  { name = "dev.cart.catalogue.amqp_pass", value = "roboshop" }
   ]
