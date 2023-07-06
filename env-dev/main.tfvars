@@ -25,3 +25,8 @@ parameters = [
   { name = "dev.payment.amqp_user", value = "roboshop@123" },
   { name = "dev.payment.amqp_pass", value = "roboshop" }
   ]
+
+passwords = [
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" },
+  { name = "dev.payment.amqp_pass", value = "roboshop" }
+]
