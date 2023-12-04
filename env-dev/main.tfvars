@@ -22,7 +22,7 @@ parameters = [
   { name = "dev.payment.user_host", value = "user-dev.rdevopsb72.store" },
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.rdevopsb72.store" },
-  { name = "dev.payment.amqp_user", value = "roboshop" }
+  { name = "dev.payment.amqp_user", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
   ]
 
