@@ -24,7 +24,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "80" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.rdevopsb72.store" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
-  { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.docdb.db_endpoint", value = "docdb.cluster-csjjrrbf31kc.us-east-1.docdb.amazonaws.com" }
   ]
 
  passwords = [
