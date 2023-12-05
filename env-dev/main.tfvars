@@ -6,7 +6,7 @@ parameters = [
   { name = "dev.frontend.payment_url", value = "http://payment-dev.rdevopsb72.store:80/" },
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.rdevopsb72.store" },
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
-  //{ name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.rdevopsb72.store:27017/catalogue" },
+  { name = "dev.catalogue.mongo_url", value = "mongodb://username:password@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
   { name = "dev.user.mongo", value = "MONGO=true" },
   { name = "dev.user.redis_host", value = "redis-dev.rdevopsb72.store" },
   { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.rdevopsb72.store:27017/users" },
@@ -36,4 +36,5 @@ parameters = [
  { name = "dev.rds.db_pass", value = "roboshop123456" },
  { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
    { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb-dev.cluster-cmscnppwjzuf.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
-]
+   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@mongodb:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+ ]
