@@ -24,7 +24,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "80" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.rdevopsb72.store" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
-  { name = "dev.docdb.db_endpoint", value = "docdb.cluster-csjjrrbf31kc.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.docdb.db_endpoint", value = "dev-docdb.cluster-csjjrrbf31kc.us-east-1.docdb.amazonaws.com" }
   ]
 
  passwords = [
@@ -35,6 +35,6 @@ parameters = [
  { name = "dev.rds.db_user", value = "roboshop" },
  { name = "dev.rds.db_pass", value = "roboshop123456" },
  { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
-   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@docdb.cluster-csjjrrbf31kc.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@dev-docdb.cluster-csjjrrbf31kc.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
 ]
