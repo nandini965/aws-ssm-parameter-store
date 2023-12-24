@@ -8,7 +8,6 @@ parameters = [
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.redis_host", value = "elasticache-dev-elasticache.dejt5k.ng.0001.use1.cache.amazonaws.com" },
-  //{ name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.rdevopsb72.store:27017/users" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.rdevopsb72.store" },
   { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.dejt5k.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" },
