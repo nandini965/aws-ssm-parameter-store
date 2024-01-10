@@ -15,8 +15,7 @@ parameters = [
   { name = "prod.shipping.cart_endpoint", value = "cart-prod.rdevopsb72.store:80" },
   { name = "prod.rds.db_host", value = "prod-rds-rds.cluster-csjjrrbf31kc.us-east-1.rds.amazonaws.com" },
   { name = "prod.shipping.db_user", value = "root" },
-  { name = "prod.payment.cart_host", value = "cart-prod
-  .rdevopsb72.store" },
+  { name = "prod.payment.cart_host", value = "cart-prod.rdevopsb72.store" },
   { name = "prod.payment.cart_port", value = "80" },
   { name = "prod.payment.user_host", value = "user-prod.rdevopsb72.store" },
   { name = "prod.payment.user_port", value = "80" },
