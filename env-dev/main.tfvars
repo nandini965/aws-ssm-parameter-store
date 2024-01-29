@@ -7,9 +7,9 @@ parameters = [
   { name = "dev.catalogue.mongo_endpoint", value = "mongodb-dev.rdevopsb72.store" },
   { name = "dev.catalogue.mongo", value = "DOCUMENTDB=true" },
   { name = "dev.user.mongo", value = "DOCUMENTDB=true" },
-  { name = "dev.user.redis_host", value = "elasticache-dev-elasticache.dejt5k.ng.0001.use1.cache.amazonaws.com" },
+  { name = "dev.user.redis_host", value = "elasticache-dev-elasticache.orwuei.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.user.mongo_endpoint", value = "mongodb-dev.rdevopsb72.store" },
-  { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.dejt5k.ng.0001.use1.cache.amazonaws.com" },
+  { name = "dev.cart.redis_host", value = "elasticache-dev-elasticache.orwuei.ng.0001.use1.cache.amazonaws.com" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.rdevopsb72.store" },
   { name = "dev.cart.catalogue_port", value = "80" },
   { name = "dev.shipping.cart_endpoint", value = "cart-dev.rdevopsb72.store:80" },
@@ -21,7 +21,7 @@ parameters = [
   { name = "dev.payment.user_port", value = "80" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.rdevopsb72.store" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
-  { name = "dev.docdb.db_endpoint", value = "prod-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com" }
+  { name = "dev.docdb.db_endpoint", value = "dev-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com" }
   ]
 
  passwords = [
@@ -32,7 +32,7 @@ parameters = [
  { name = "dev.rds.db_user", value = "roboshop" },
  { name = "dev.rds.db_pass", value = "roboshop123456" },
  { name = "dev.rabbitmq.rabbitmq_appuser_password", value = "roboshop123" },
-   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@prod-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
-   { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@prod-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
+   { name = "dev.catalogue.mongo_url", value = "mongodb://roboshop:roboshop123456@dev-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" },
+   { name = "dev.user.mongo_url", value = "mongodb://roboshop:roboshop123456@dev-docdb.cluster-c7igi66ocofh.us-east-1.docdb.amazonaws.com:27017/user?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false" }
 
 ]
