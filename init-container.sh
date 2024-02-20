@@ -1,0 +1,1 @@
+aws ssm get-parameters  --names $param --with-decryption | jq .Parameters[].Value | sed -e 's/"//g'
