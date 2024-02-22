@@ -14,7 +14,7 @@ spec:
   serviceAccountName: oidc-ssm
   containers:
     - name: demo
-      image: 115099330984.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store:latest
+      image: 115099330984.dkr.ecr.us-east-1.amazonaws.com/aws-parameter-store
       imagePullPolicy: Always
 
 
