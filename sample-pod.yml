@@ -19,3 +19,4 @@ spec:
       env:
         - name: PARAMS
           value: "prod.payment.cart_port prod.payment.user_port prod.payment.cart_host"
+---
